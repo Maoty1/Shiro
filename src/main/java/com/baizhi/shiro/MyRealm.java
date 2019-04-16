@@ -23,6 +23,8 @@ public class MyRealm extends AuthorizingRealm {
 
 
         System.out.println("aaaaaaa");
+        
+        System.out.println("eeeeeee");
 
         return authenticationInfo;
     }
