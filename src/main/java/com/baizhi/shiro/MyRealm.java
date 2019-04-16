@@ -21,7 +21,9 @@ public class MyRealm extends AuthorizingRealm {
 
         AuthenticationInfo authenticationInfo = new SimpleAuthenticationInfo(principal , s , ByteSource.Util.bytes("abcd") , getName());
 
-        
+
+        System.out.println("aaaaaaa");
+
         return authenticationInfo;
     }
 }
